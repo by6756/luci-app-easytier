@@ -25,8 +25,7 @@ jobs:
       matrix:
         arch:
           - aarch64_cortex-a53
-          - mipsel_24kc
-          - mipsel_24kc_24kf
+          - arm_cortex-a7
         sdk:
           - openwrt-22.03
           - SNAPSHOT
